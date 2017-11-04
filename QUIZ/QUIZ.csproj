@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{402D1B30-3DC5-465C-BF1E-2BD154B8006A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QUIZ</RootNamespace>
+    <AssemblyName>QUIZ</AssemblyName>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Coding\admin.aspx" />
+    <Content Include="Coding\adminques.aspx" />
+    <Content Include="Coding\instruction.aspx" />
+    <Content Include="Coding\level1.aspx" />
+    <Content Include="Coding\level1_2.aspx" />
+    <Content Include="Coding\level1_3.aspx" />
+    <Content Include="Coding\level1_que_1.aspx" />
+    <Content Include="Coding\level1_que_2.aspx" />
+    <Content Include="Coding\level1_que_3.aspx" />
+    <Content Include="Coding\loginques.aspx" />
+    <Content Include="Coding\mainadmin.aspx" />
+    <Content Include="Coding\passques1.aspx" />
+    <Content Include="Coding\passques2.aspx" />
+    <Content Include="Coding\passques3.aspx" />
+    <Content Include="Coding\score.aspx" />
+    <Content Include="Coding\submit.aspx" />
+    <Content Include="Coding\userques.aspx" />
+    <Content Include="images\1.png" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="Coding\thankyou.aspx" />
+    <Content Include="Coding\user.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\brain_areas-dd56df857780b75df381a69a89db7f69.png" />
+    <Content Include="images\c3.jpg" />
+    <Content Include="images\c6.jpg" />
+    <Content Include="images\c7.jpg" />
+    <Content Include="images\download.jpg" />
+    <Content Include="images\images %285%29.jpg" />
+    <Content Include="App_Data\quiz.mdb" />
+    <Content Include="images\san2.jpg" />
+    <Content Include="images\th %282%29.jpg" />
+    <Content Include="images\CA - W 2 move - mate in 1.jpg" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Coding\admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\adminques.aspx.cs">
+      <DependentUpon>adminques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\adminques.aspx.designer.cs">
+      <DependentUpon>adminques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\instruction.aspx.cs">
+      <DependentUpon>instruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\instruction.aspx.designer.cs">
+      <DependentUpon>instruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\level1.aspx.cs">
+      <DependentUpon>level1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\level1.aspx.designer.cs">
+      <DependentUpon>level1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\level1_2.aspx.cs">
+      <DependentUpon>level1_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\level1_2.aspx.designer.cs">
+      <DependentUpon>level1_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\level1_3.aspx.cs">
+      <DependentUpon>level1_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\level1_3.aspx.designer.cs">
+      <DependentUpon>level1_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\level1_que_1.aspx.cs">
+      <DependentUpon>level1_que_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\level1_que_1.aspx.designer.cs">
+      <DependentUpon>level1_que_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\level1_que_2.aspx.cs">
+      <DependentUpon>level1_que_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\level1_que_2.aspx.designer.cs">
+      <DependentUpon>level1_que_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\level1_que_3.aspx.cs">
+      <DependentUpon>level1_que_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\level1_que_3.aspx.designer.cs">
+      <DependentUpon>level1_que_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\loginques.aspx.cs">
+      <DependentUpon>loginques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\loginques.aspx.designer.cs">
+      <DependentUpon>loginques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\mainadmin.aspx.cs">
+      <DependentUpon>mainadmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\mainadmin.aspx.designer.cs">
+      <DependentUpon>mainadmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\passques1.aspx.cs">
+      <DependentUpon>passques1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\passques1.aspx.designer.cs">
+      <DependentUpon>passques1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\passques2.aspx.cs">
+      <DependentUpon>passques2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\passques2.aspx.designer.cs">
+      <DependentUpon>passques2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\passques3.aspx.cs">
+      <DependentUpon>passques3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\passques3.aspx.designer.cs">
+      <DependentUpon>passques3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\score.aspx.cs">
+      <DependentUpon>score.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\score.aspx.designer.cs">
+      <DependentUpon>score.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\submit.aspx.cs">
+      <DependentUpon>submit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\submit.aspx.designer.cs">
+      <DependentUpon>submit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\thankyou.aspx.cs">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\thankyou.aspx.designer.cs">
+      <DependentUpon>thankyou.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\user.aspx.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\user.aspx.designer.cs">
+      <DependentUpon>user.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Coding\userques.aspx.cs">
+      <DependentUpon>userques.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Coding\userques.aspx.designer.cs">
+      <DependentUpon>userques.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2009</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

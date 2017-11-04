@@ -1,0 +1,20 @@
+c:\users\manoj\documents\visual studio 2010\Projects\QUIZ\QUIZ\bin\QUIZ.dll
+c:\users\manoj\documents\visual studio 2010\Projects\QUIZ\QUIZ\bin\QUIZ.pdb
+c:\users\manoj\documents\visual studio 2010\Projects\QUIZ\QUIZ\obj\Debug\ResolveAssemblyReference.cache
+c:\users\manoj\documents\visual studio 2010\Projects\QUIZ\QUIZ\obj\Debug\QUIZ.dll
+c:\users\manoj\documents\visual studio 2010\Projects\QUIZ\QUIZ\obj\Debug\QUIZ.pdb
+C:\Users\muthupandi\Desktop\on_qui e&i\QUIZ\QUIZ\bin\QUIZ.dll
+C:\Users\muthupandi\Desktop\on_qui e&i\QUIZ\QUIZ\bin\QUIZ.pdb
+C:\Users\muthupandi\Desktop\on_qui e&i\QUIZ\QUIZ\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\muthupandi\Desktop\on_qui e&i\QUIZ\QUIZ\obj\Debug\QUIZ.dll
+C:\Users\muthupandi\Desktop\on_qui e&i\QUIZ\QUIZ\obj\Debug\QUIZ.pdb
+D:\QUIZ\QUIZ\QUIZ\bin\QUIZ.dll
+D:\QUIZ\QUIZ\QUIZ\bin\QUIZ.pdb
+D:\QUIZ\QUIZ\QUIZ\obj\Debug\ResolveAssemblyReference.cache
+D:\QUIZ\QUIZ\QUIZ\obj\Debug\QUIZ.dll
+D:\QUIZ\QUIZ\QUIZ\obj\Debug\QUIZ.pdb
+E:\project\QUIZ\QUIZ\QUIZ\bin\QUIZ.dll
+E:\project\QUIZ\QUIZ\QUIZ\bin\QUIZ.pdb
+E:\project\QUIZ\QUIZ\QUIZ\obj\Debug\ResolveAssemblyReference.cache
+E:\project\QUIZ\QUIZ\QUIZ\obj\Debug\QUIZ.dll
+E:\project\QUIZ\QUIZ\QUIZ\obj\Debug\QUIZ.pdb
